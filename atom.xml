@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[MeeGleMe]]></title>
-  
+  <subtitle><![CDATA[test]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-28T07:43:05.000Z</updated>
+  <updated>2016-02-28T15:25:16.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[HowToHexo]]></title>
+    <link href="http://yoursite.com/2016/02/28/HowTohexo/"/>
+    <id>http://yoursite.com/2016/02/28/HowTohexo/</id>
+    <published>2016-02-28T13:18:10.000Z</published>
+    <updated>2016-02-28T15:25:16.000Z</updated>
+    <content type="html"><![CDATA[<p>備忘録として残します。</p>
+<p> macでサイトジェネレーター “hexo”の初期設定の仕方</p>
+<p> まず OS X 用パッケージマネージャー “Homebrew”をダウンロードします。</p>
+<p><a href="http://brew.sh/index_ja.html" target="_blank" rel="external">Homebrewサイト</a></p>
+<p>サイトに記載されている</p>
+<p>/usr/bin/ruby -e “$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install" target="_blank" rel="external">https://raw.githubusercontent.com/Homebrew/install/master/install</a>)”</p>
+<p>をターミナルで入力</p>
+<p>インストール後 “ brew doctor “でエラーやワーニングが無い事を確認(エラーなど出た場合　エラーメッセージを確認しメッセージに沿ってググッて解決する)</p>
+<p>npm をインストールする。<br>brew install node</p>
+<p>hexo インストール<br>npm install -g hexo</p>
+<p>ブログ作成する<br>hexo init myblog</p>
+<p>移動<br>cd myblog<br>npm install</p>
+<p>ローカルサーバー起動<br>hexo server</p>
+<p>ローカルで確認<br><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a></p>
+<p>設定</p>
+<p>config.ymlをエディタで開き</p>
+<p>title: ブログタイトル<br>language: ja<br>timezone: Asia/Tokyo</p>
+<p>deploy:<br>type: git<br>repo: git@github.com:gitID/gitID.github.io.git<br>branch: master</p>
+<p>よく使うコマンド</p>
+<p>記事追加<br>hexo new TestPage</p>
+<p>gitへデプロイ<br>hexo deploy -g</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>備忘録として残します。</p>
+<p> macでサイトジェネレーター “hexo”の初期設定の仕方</p>
+<p> まず OS X 用パッケージマネージャー “Homebrew”をダウンロードします。</p>
+<p><a href="http://brew.sh/index]]>
+    </summary>
+    
+      <category term="How to Hexo" scheme="http://yoursite.com/tags/How-to-Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World!!]]></title>
